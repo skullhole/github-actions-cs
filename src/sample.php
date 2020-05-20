@@ -1,9 +1,14 @@
 <?php
 
-function test ( $param )
-{
-      echo
-       $param;
+/**
+ * @file
+ */
+
+/**
+ *
+ */
+function test($param) {
+  echo $param;
 }
 
-test ( 'x');
+test('x');
