@@ -9,7 +9,6 @@ on:
 
 jobs:
   phpcs:
-
     runs-on: ubuntu-latest
 
     steps:

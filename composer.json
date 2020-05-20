@@ -1,11 +1,14 @@
 {
-    "require-dev": {
-        "drupal/coder": "dev-8.x-3.x",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
-        "squizlabs/php_codesniffer": "3.*"
-    },
-    "scripts": {
-        "phpcs": "./vendor/bin/phpcs --standard=Drupal -v --extensions=php,inc,module ./src/",
-        "phpcbf": "./vendor/bin/phpcbf --standard=Drupal --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 -w -v ./src"
-    }
+  "name": "PHP Code Sniffer",
+  "description": "PHP Code Sniffer for Github Actions",
+  "license": "MIT",
+  "require-dev": {
+    "drupal/coder": "dev-8.x-3.x",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "scripts": {
+    "phpcs": "./vendor/bin/phpcs --standard=Drupal -v --extensions=php,inc,module ./src/",
+    "phpcbf": "./vendor/bin/phpcbf --standard=Drupal --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 -w -v ./src"
+  }
 }
