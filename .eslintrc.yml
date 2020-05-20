@@ -1,1 +1,5 @@
 extends: standard
+
+rules:
+  semi: [2, "always"]
+  no-console: ["error", { allow: ["warn", "error"] }]
