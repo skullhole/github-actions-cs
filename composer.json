@@ -1,5 +1,5 @@
 {
-  "name": "php_code_sniffer_drupal",
+  "name": "skullhole/github-actions-cs",
   "description": "PHP Code Sniffer for Github Actions",
   "license": "MIT",
   "require-dev": {
