@@ -1,5 +1,5 @@
 {
-  "name": "PHP Code Sniffer",
+  "name": "php_code_sniffer_drupal",
   "description": "PHP Code Sniffer for Github Actions",
   "license": "MIT",
   "require-dev": {
