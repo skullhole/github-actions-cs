@@ -1,0 +1,10 @@
+extends: standard
+
+rules:
+  semi: [2, 'always']
+  no-console: ['error', { allow: ['warn', 'error'] }]
+  space-before-function-paren:
+    [
+      'error',
+      { 'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always' },
+    ]
